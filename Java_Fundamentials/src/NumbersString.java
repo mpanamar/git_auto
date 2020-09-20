@@ -1,4 +1,5 @@
 // Java Fundamentals - Main Task 3
+// Вывести заданное количество случайных чисел с переходом и без перехода на новую строку
 public class NumbersString {
     public static void main(String[] args) {
 

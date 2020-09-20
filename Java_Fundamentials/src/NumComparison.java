@@ -1,5 +1,6 @@
 import java.util.Scanner;
-// Java Fundamentals - Optional Task 1.2
+// Java Fundamentals - Optional Task 1.1
+//Найти самое короткое и самое длинное число. Вывести найденные числа и их длину.
 public class NumComparison {
     public static void main(String[] args) {
         System.out.println("Enter values to be compared:");

@@ -2,6 +2,7 @@ import java.util.Scanner;
 import java.util.*;
 import static java.util.Collections.*;
 // Java Fundamentals - Optional Task 1.2
+// Вывести числа в порядке возрастания (убывания) значений их длины.
 class NumSort {
     public static void main(String[] args) {
 

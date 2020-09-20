@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 // Java Fundamentals - Main Task 4
+// Ввести целые числа как аргументы командной строки, подсчитать их сумму (произведение) и вывести результат на консоль.
 class Math {
     public static void main(String[] args ) {
         System.out.println("Enter integer values through Enter");
