@@ -9,18 +9,15 @@ public class PublisherInfo {
     private String publisherName;
     private double bookPrice;
     private int publishDate;
-
     private Cover coverName;
 
-    @Override
-    public String toString() {
-        return "PublisherInfo{" +
-                "publisherName='" + publisherName + '\'' +
-                ", bookPrice=" + bookPrice +
-                ", publishDate=" + publishDate +
-                ", coverName=" + coverName +
-                '}';
+    public PublisherInfo(String publisherName, double bookPrice, int publishDate, Cover coverName) {
+        this.publisherName = publisherName;
+        this.bookPrice = bookPrice;
+        this.publishDate = publishDate;
+        this.coverName = coverName;
     }
+
 
     public String getPublisherName() {
         return publisherName;
@@ -47,7 +44,6 @@ public class PublisherInfo {
     }
 
 
-
     public Cover getCoverName() {
         return coverName;
     }
@@ -56,10 +52,15 @@ public class PublisherInfo {
         this.coverName = coverName;
     }
 
-    public PublisherInfo(String publisherName, double bookPrice, int publishDate, Cover coverName) {
-        this.publisherName = publisherName;
-        this.bookPrice = bookPrice;
-        this.publishDate = publishDate;
-        this.coverName = coverName;
+    @Override
+    public String toString() {
+        return "PublisherInfo{" +
+                "publisherName='" + publisherName + '\'' +
+                ", bookPrice=" + bookPrice +
+                ", publishDate=" + publishDate +
+                ", coverName=" + coverName +
+                '}';
     }
+
+
 }

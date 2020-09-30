@@ -1,6 +1,16 @@
 package com.automation.mpanamar.bookshelf;
 
 public class BookInfo {
+    private String bookName;
+    private String authorName;
+    private int pagesNumber;
+
+    public BookInfo(String bookName, String authorName, int pagesNumber) {
+        this.bookName = bookName;
+        this.authorName = authorName;
+        this.pagesNumber = pagesNumber;
+    }
+
     public String getBookName() {
         return bookName;
     }
@@ -25,9 +35,6 @@ public class BookInfo {
         this.pagesNumber = pagesNumber;
     }
 
-    private String bookName;
-    private String authorName;
-    private int pagesNumber;
 
     @Override
     public String toString() {
@@ -38,9 +45,5 @@ public class BookInfo {
                 '}';
     }
 
-    public BookInfo(String bookName, String authorName, int pagesNumber) {
-        this.bookName = bookName;
-        this.authorName = authorName;
-        this.pagesNumber = pagesNumber;
-    }
+
 }
