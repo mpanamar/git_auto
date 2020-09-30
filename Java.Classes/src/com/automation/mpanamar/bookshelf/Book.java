@@ -42,6 +42,4 @@ public class Book {
                 "\nName of Publisher: " + publisherInfo.getPublisherName() + "\nPrice of the book: " + getPublisherInfo().getBookPrice() +
                 "\nDate of publishing: " + getPublisherInfo().getPublishDate();
     }
-
-
 }

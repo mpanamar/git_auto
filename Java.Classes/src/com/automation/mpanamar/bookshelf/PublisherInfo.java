@@ -18,7 +18,6 @@ public class PublisherInfo {
         this.coverName = coverName;
     }
 
-
     public String getPublisherName() {
         return publisherName;
     }
@@ -42,7 +41,6 @@ public class PublisherInfo {
     public void setPublishDate(int publishDate) {
         this.publishDate = publishDate;
     }
-
 
     public Cover getCoverName() {
         return coverName;

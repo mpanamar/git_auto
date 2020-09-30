@@ -35,7 +35,6 @@ public class BookInfo {
         this.pagesNumber = pagesNumber;
     }
 
-
     @Override
     public String toString() {
         return "BookInfo{" +
@@ -44,6 +43,4 @@ public class BookInfo {
                 ", pagesNumber=" + pagesNumber +
                 '}';
     }
-
-
 }

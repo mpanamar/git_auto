@@ -11,6 +11,5 @@ public class BookMain {
         BookUtils.getBookByAuthor(getBooks(), "J.K. Rowling:");
         System.out.println("\nBooks from That Publisher:");
         BookUtils.getBookByPublisher(getBooks(), "That Publisher");
-
     }
 }
